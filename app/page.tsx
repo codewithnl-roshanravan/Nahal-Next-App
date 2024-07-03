@@ -7,6 +7,7 @@ import NavMenu from "../components/NavMenu";
 
 
 const Page = () => {
+  
   return (
     <div>
       <Slider />
