@@ -1,22 +1,19 @@
 "use client";
 
-import React from "react";
-import ProductList from "@/components/ProductList"
-import Slider from "@/components/Slider"
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import Slider from "@/components/Slider";
 
-const page = () => {
+import Footer from "@/components/Footer";
+import NavMenu from "../components/NavMenu";
+
+
+const Page = () => {
   return (
-    
-    <div className=''>
-    <Slider />
-    <Nav /> 
-    <Footer />
-   </div>
+    <div>
+      <Slider />
+      <NavMenu />
+      <Footer />
+    </div>
   );
 };
 
-export default page;
-
-
+export default Page;
