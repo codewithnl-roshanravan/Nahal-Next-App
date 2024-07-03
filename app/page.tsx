@@ -5,9 +5,7 @@ import Slider from "@/components/Slider";
 import Footer from "@/components/Footer";
 import NavMenu from "../components/NavMenu";
 
-
 const Page = () => {
-  
   return (
     <div>
       <Slider />
